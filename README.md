@@ -18,7 +18,7 @@ go build
 
 ## Run
 
-When projects have been built you can add this command to the pipeline:
+After `go build`, you can use this tool in the pipeline:
 
 ```bash
 kubectl -n ... logs ... | <path-to-project>/json-formatter
