@@ -15,3 +15,13 @@ Project can be easily built with this command:
 ```bash
 go build
 ```
+
+## Run
+
+When projects is built you can add this command to the pipeline:
+
+```bash
+kubectl -n ... logs ... | <path-to-project>/json-formatter
+```
+
+Add alias or shortcut if needed.
