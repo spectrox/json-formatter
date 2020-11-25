@@ -41,6 +41,10 @@ func isSplitJsonString(text string) bool {
 	//	return false
 	//}
 
+	if len(text) == 0 {
+		return false
+	}
+
 	if string(text[0]) != "{" {
 		return false
 	}
